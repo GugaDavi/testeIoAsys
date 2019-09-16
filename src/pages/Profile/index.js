@@ -20,6 +20,7 @@ import NoEnterprises from '../../components/NoEnterprises';
 
 import { signOut } from '../../store/modules/auth/actions';
 
+// eslint-disable-next-line no-console
 console.disableYellowBox = true;
 
 export default function Profile() {
@@ -45,9 +46,11 @@ export default function Profile() {
           <Local>
             {profile.city}, {profile.country}
           </Local>
-          <Balance>Saldo Disponivel: R$ 1.000.000,00</Balance>
+          <Balance>Saldo Disponivel: {profile.balanceFormatted}</Balance>
           <NoEnterprises />
-          <AllBalance>Na Carteira: R$ 1.000.000,00</AllBalance>
+          <AllBalance>
+            Na Carteira: {profile.portfolioValueFormatted}
+          </AllBalance>
           <SignOut onPress={handleSingOut}>Sair</SignOut>
         </Container>
       </ScrollView>
