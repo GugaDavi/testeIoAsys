@@ -1,4 +1,5 @@
-![N|Solid](logo_ioasys.png)
+![N|Solid](./src/assets/logo_ioasys.png)
+![N|Solid](./src/assets/ioasys.png)
 
 # Desafio React Native - ioasys by Gustavo Davi
 
