@@ -78,6 +78,8 @@ Outro ponto foi a lista de segmentos, não consegui configurar um estilo para a 
 
 ## Pages
 
+![N|Solid](./src/assets/ioasys.png)
+
 ## Ponto Importante
 
 Gostaria de agradecer a participação neste teste tecnico, pois além de aprender muito, foi um otimo termometro de como está meus conhecimentos nessa stack que tanto amo. Javascript s2 React.
@@ -87,5 +89,3 @@ Caso passe desta fase, será um prazer gigantesco ter contato com a equipe de vo
 Aproposito, o site de vocês é absurdo, massa pra caramba.
 
 _Sem mais, mais uma vez obrigado._
-
-![N|Solid](./src/assets/ioasys.png)
